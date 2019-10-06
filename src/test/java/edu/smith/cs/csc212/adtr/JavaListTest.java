@@ -88,7 +88,26 @@ public class JavaListTest {
 	}
 	
 	// TODO: test list addToBack.
+	@Test
+	public void testaddToBack() {
+		ListADT<String> data = makeFullList();
+		assertEquals("c", data.addToBack());
+	}
 	// TODO: test list remove
+	@Test
+	public void testListRemoveBack() {
+		
+	}
+	
+	@Test
+	public void testRemoveIndex() {
+		
+	}
+	
+	@Test
+	public void testRemoveFront() {
+		
+	}
 	// TODO test addIndex methods.
 	
 	@Test
@@ -152,7 +171,10 @@ public class JavaListTest {
 	}
 	
 	// TODO write some tests for setIndex.
-	
+	@Test
+	public void testsetIndex() {
+		
+	}
 	@Test
 	public void testToJava() {
 		assertEquals(makeFullList().toJava(), Arrays.asList("a", "b", "c", "d"));

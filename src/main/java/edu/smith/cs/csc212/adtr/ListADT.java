@@ -76,7 +76,7 @@ public abstract class ListADT<ItemType> implements Iterable<ItemType> {
 	public abstract void addFront(ItemType value);
 
 	/**
-	 * Add value to the back of hte list.
+	 * Add value to the back of the list.
 	 * 
 	 * @param value - the item to add.
 	 */
@@ -212,5 +212,7 @@ public abstract class ListADT<ItemType> implements Iterable<ItemType> {
 	public int hashCode() {
 		throw new IllegalArgumentException("Don't use a ListADT as a key in a hashmap!");
 	}
+
+	protected abstract Object addToBack();
 
 }

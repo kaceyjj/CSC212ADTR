@@ -5,9 +5,15 @@ import edu.smith.cs.csc212.adtr.real.JavaSet;
 
 public class Challenges {
 
+	//add another class to test called ChallengeTest.java?
+	
 	// The union of two sets is the set of elements that either contains.
 	public static SetADT<Integer> union(SetADT<Integer> left, SetADT<Integer> right) {
 		SetADT<Integer> output = new JavaSet<>();
+		
+		//need method
+		//if contains in set 1 or set 2
+		//put in a new set (output)
 		
 		return output;
 	}
